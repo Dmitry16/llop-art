@@ -1,0 +1,178 @@
+$c1 : #fda;
+$c2 : steelblue;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lighten(#fda,5%);
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 10px, 20px, 50px, 70px;
+}
+body, .content-area {
+	max-width: 100% !important;
+	margin: 0 !important;
+}
+.header, .footer, .row {
+	max-width: 90% !important;
+}
+.header h1 a {
+	padding: 1em;
+	background: rgba(coral,0.8);
+	color: #fff;
+}
+.header, .footer, .quien-soy {
+	background-color: rgba(lighten(coral,10%), 0.5);
+	background-image: linear-gradient(0deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(0deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 1px, 1px, 1px, 50px;
+	border: 1px solid rgba(lighten(coral,5%), 0.9);
+	border-radius: 5px;
+}
+.header, .footer {
+	margin: 3% auto !important;
+	padding: 3% 0 0 0 !important;
+
+}
+.header-menu {
+	width: 70%;
+	margin: 5% auto 0;
+}
+ul.menu li {
+	line-height: 1em;
+	text-align: center;
+	decoration-syle: none;
+	display: inline-block;
+	width: 18%;
+	border-right: 2px solid coral;
+}
+ul.menu li a {
+		color: darken(skyblue,15%);
+}
+ul.menu li:last-child {
+	border: none;
+}
+.title-front h3 {
+	color: coral;
+	margin: 5% 0 0 0;
+}
+p.norm {
+	width: 70%;
+	margin: 3% auto 5%;
+	text-align: left;
+}
+.row {
+	// background-color: rgba(lighten(lightblue,10%),.3);
+	// background-image: linear-gradient(0deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	// linear-gradient(0deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	// linear-gradient(0deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	// linear-gradient(0deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	// background-size: 10px, 20px, 30px, 60px;
+
+	margin: 2% auto 3%;
+	padding: 0;
+	//border: 2px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+.piezas-wrapper, .blog-front-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+.pieza, .blog-front-wrapper a {
+	// background-color: rgba(lighten(coral,10%), 0.5);
+	// background-image: linear-gradient(0deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	// linear-gradient(0deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	// linear-gradient(0deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	// linear-gradient(0deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	// background-size: 1px, 1px, 1px, 5px;
+	text-align: center;
+	border: 1px solid #aaa;
+	margin: 0 10px;
+	padding: 0;
+	border: 1px solid rgba(lighten(coral,10%), 0.9);
+	border-radius: 3px;
+	color: #555;
+	width: 20em;
+	height: 30em;
+	perspective: 800px !important;
+}
+.pieza:hover .rotate {
+	transform: rotateY(180deg);
+}
+.rotate {
+	width: inherit;
+	height: inherit;
+	position: relative;
+	transform-style: preserve-3d !important;
+	transition: transform .5s !important;
+}
+.front, .back {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	border: 2px solid rgba(lighten(coral,10%), 0.9);
+	//backface-visibility: hidden;
+}
+.front {
+	background: pink;
+	transform: rotateY(0deg);
+}
+.back {
+	background: steelblue;
+	transform: rotateY(180deg);
+}
+
+
+
+
+.pieza-image {
+	height: 15em;
+	overflow: hidden;
+}
+.blog-front-wrapper a {
+	width: 49%;
+}
+.trabajo, .blog-front {
+	padding: 20%;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+
+	background-color: rgba(lighten(orange,10%), 0.5);
+	background-image: linear-gradient(0deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(0deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 1px, 3px, 4px, 50px;	
+}
+.icons-wrapper {
+	background-color: rgba(lighten(coral,10%), 0.5);
+	background-image: linear-gradient(0deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(0deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(0deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 1px, 1px, 1px, 5px;
+
+	height: 20em;
+	display: flex;
+	justify-content: center;
+	width: 23%;
+	border: 1px solid #aaa;
+	margin: 5% 1%;
+	padding: 1%;
+}

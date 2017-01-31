@@ -1,0 +1,255 @@
+body {
+  background-color: #ffe7c4;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(left, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(left, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 10px, 20px, 50px, 70px; }
+
+body, .content-area {
+  max-width: 100% !important;
+  margin: 0 !important; }
+
+.header, .footer, .row {
+  max-width: 90% !important; }
+
+.header h1 a {
+  padding: 1em;
+  background: rgba(255, 127, 80, 0.8);
+  color: #fff; }
+
+.header, .footer {
+  background-color: rgba(255, 164, 131, 0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 1px, 1px, 1px, 50px;
+  border: 1px solid rgba(255, 146, 106, 0.9);
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.header, .footer {
+  margin: 3% auto !important;
+  padding: 3% 0 0 0 !important; }
+
+.header-menu {
+  width: 70%;
+  margin: 5% auto 0; }
+
+ul.menu li {
+  line-height: 1em;
+  text-align: center;
+  decoration-syle: none;
+  display: inline-block;
+  width: 18%;
+  border-right: 2px solid coral; }
+
+ul.menu li a {
+  color: #45b3e0; }
+
+ul.menu li:last-child {
+  border: none; }
+
+.title-front h3 {
+  color: coral;
+  margin: 5% 0 0 0; }
+
+p.norm {
+  width: 70%;
+  margin: 3% auto 5%;
+  text-align: left;
+  color: #239ed0; }
+
+.footer p {
+  color: #239ed0; }
+
+.row {
+  margin: 2% auto 3%;
+  padding: 0 2% 4% 2%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  -webkit-box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.piezas-wrapper, .blog-front-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 100%; }
+
+.pieza, .blog-front-wrapper a {
+  background-color: rgba(255, 164, 131, 0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 1px, 1px, 1px, 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
+  width: 40%;
+  height: 40em;
+  border: 1px solid #aaa;
+  margin: 5% 2% 2% 2%;
+  padding: 0;
+  border: 1px solid rgba(255, 164, 131, 0.9);
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  color: coral;
+  -webkit-perspective: 800px !important;
+          perspective: 800px !important; }
+
+.pieza:hover .rotate {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg); }
+
+.rotate {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 90%;
+  position: relative;
+  -webkit-transform-style: preserve-3d !important;
+          transform-style: preserve-3d !important;
+  -webkit-transition: -webkit-transform 1s !important;
+  transition: -webkit-transform 1s !important;
+  transition: transform 1s !important;
+  transition: transform 1s, -webkit-transform 1s !important; }
+
+.front, .pieza-col2 {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.pieza-col2 {
+  padding: 10%;
+  background: rgba(70, 130, 180, 0.9);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: scroll; }
+
+.pieza-col2 p {
+  font-size: 18px; }
+
+.front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg); }
+
+.front a img {
+  width: 100%;
+  height: 100%; }
+
+.boton-pieza {
+  margin-top: 2%;
+  background: transparent;
+  border: 3px solid coral; }
+
+.boton-pieza:hover {
+  background: #55aa55; }
+
+.pieza-image, .pieza-image img {
+  height: inherit !important; }
+
+.blog-front-wrapper a {
+  width: 49%; }
+
+.trabajo {
+  padding: 20%;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: rgba(255, 183, 51, 0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 1px, 3px, 4px, 50px; }
+
+.icons-wrapper {
+  background-color: rgba(255, 164, 131, 0.5);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(bottom, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 1px, 1px, 1px, 5px;
+  height: 20em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 23%;
+  border: 1px solid #aaa;
+  margin: 5% 1%;
+  padding: 1%; }
+
+/*-----------------------------------------------start media max 400px------------------------------------------*/
+@media only screen and (max-width: 400px) {
+  .pieza {
+    width: 95%;
+    height: 25em; }
+  .pieza-col2 p {
+    font-size: 12px; }
+  .boton-pieza {
+    padding: 0;
+    width: 80%;
+    height: 12%;
+    font-size: 12px; } }

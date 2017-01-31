@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box !important;
+}
+body {
+	background: #ccc;
+}
+.flip3d {
+	width: 30em;
+	height: 20em;
+	margin: 1em auto;
+	perspective: 800px;
+}
+.flip3d:hover .rotate {
+	transform: rotateY(180deg);
+}
+.rotate {
+	width: inherit;
+	height: inherit;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform .5s;
+}
+img, .text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px double gray;
+	width: inherit;
+	height: inherit;
+}
+img { 
+	transform: rotateY(0deg);
+
+}
+.text {
+	padding: 5%;
+	color: darken(coral, 10%);
+	background: rgba(steelblue, 0.9);
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+}
+

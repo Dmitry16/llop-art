@@ -1,0 +1,16 @@
+	div {
+	background-color: lighten(steelblue,10%);
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(180deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(180deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(180deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 20px, 30px, 4px, 9px;
+}
+body {
+	background-color: lighten(steelblue,10%);
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 1px, 2px, 3px, 6px;
+}
